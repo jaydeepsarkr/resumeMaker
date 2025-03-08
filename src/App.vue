@@ -49,7 +49,7 @@ export default {
     };
   },
   mounted() {
-    document.body.style.zoom = "90%";
+    document.body.style.zoom = "80%";
   },
   methods: {
     downloadPDF() {
