@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions" # If using serverless functions
+
+[dev]
+  command = "npm run dev"
+  targetPort = 5173 # Default Vite port
+  framework = "vite"
