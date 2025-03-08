@@ -15,11 +15,9 @@
 
 </template>
 <script>
-import ResumeForm from "@/components/ResumeForm.vue"; // If using aliases
-
-
-import ResumePreview from '@/components/ResumePreview.vue';
+import ResumePreview from './components/previewreview.vue';
 import html2pdf from 'html2pdf.js';
+import ResumeForm from "./components/formreview.vue"; // If using aliases
 
 export default {
   components: { ResumeForm, ResumePreview },
