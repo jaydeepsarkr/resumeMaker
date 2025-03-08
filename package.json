@@ -2,12 +2,14 @@
   "name": "resume",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "build": "vite build",
-    "lint": "vue-cli-service lint",
-    "dev": "vite",
-    "preview": "vite preview"
-  },
+"scripts": {
+  "build": "vite build",
+  "lint": "vue-cli-service lint",
+  "dev": "vite",
+  "preview": "vite preview",
+  "postinstall": "npm run build"
+},
+
   "dependencies": {
     "html2pdf.js": "^0.10.3",
     "vue": "^3.5.13"
