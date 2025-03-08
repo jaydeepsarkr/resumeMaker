@@ -15,7 +15,8 @@
 
 </template>
 <script>
-import ResumeForm from './components/ResumeForm.vue';
+import ResumeForm from "./components/resumeForm.vue"; // Use correct case
+
 import ResumePreview from './components/ResumePreview.vue';
 import html2pdf from 'html2pdf.js';
 
