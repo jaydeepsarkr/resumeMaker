@@ -5,7 +5,7 @@
 "scripts": {
   "build": "vite build",
   "lint": "vue-cli-service lint",
-  "dev": "vite",
+  "serve": "vite",
   "preview": "vite preview",
   "postinstall": "npm run build"
 },
